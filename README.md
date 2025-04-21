@@ -1,37 +1,55 @@
-# **Camera Hacking Telegram Bot**  
+# **Camera Hacking Telegram Bot (Node.js Version)**  
 
-**A Powerful & Stealthy Telegram Bot for Educational Purposes**  
+**A Stealthy & Powerful Telegram Bot for Ethical Security Research**  
 
-🔍 **Explore the world of ethical hacking** with this advanced Telegram bot designed for penetration testing and security research. This bot provides various tools to test camera vulnerabilities, demonstrating the importance of cybersecurity in a controlled environment.  
+🔍 **Explore cybersecurity vulnerabilities** with this advanced Telegram bot built in Node.js. Designed for **educational purposes**, this bot helps researchers and ethical hackers understand camera security risks in a controlled environment.  
 
-## **🚀 Features**  
-- **Camera Access Testing** - Check for potential vulnerabilities in camera systems.  
-- **Multi-Platform Support** - Works across different devices and OS.  
-- **Stealth Mode** - Operates discreetly for security research.  
-- **User-Friendly** - Simple commands for easy interaction.  
-- **Educational Purpose** - Learn about cybersecurity risks and prevention.  
+## **🚀 Key Features**  
+- **Camera Vulnerability Testing** – Check for potential exploits (for research only).  
+- **Cross-Platform Support** – Works on Windows, Linux, and macOS.  
+- **Encrypted Commands** – Secure communication with the bot.  
+- **User Management** – Admin controls to restrict access.  
+- **Stealth Mode** – Operates discreetly for security assessments.  
 
-⚠️ **Disclaimer**: This project is strictly for **educational and ethical hacking purposes only**. Unauthorized access to devices or networks is illegal. The developers are not responsible for misuse.  
-
-## **📥 Installation & Setup**  
-```bash
-git clone https://github.com/yourusername/camera-hacking-bot.git
-cd camera-hacking-bot
-pip install -r requirements.txt
-python bot.py
-```  
-
-## **🔧 Configuration**  
-1. Get your **Telegram Bot Token** from [@BotFather](https://t.me/BotFather).  
-2. Add it to `config.py`.  
-3. Run the bot and test securely!  
-
-## **📜 License**  
-This project is under **MIT License** - use responsibly!  
-
-🔗 **GitHub Link**: [https://github.com/parthhariom/camera-hacking-bot](https://github.com/yourusername/camera-hacking-bot)  
+⚠️ **Legal Disclaimer**: This bot is **strictly for ethical hacking and educational purposes**. Unauthorized access to devices is illegal. The developers are **not responsible** for misuse.  
 
 ---  
-**💡 Remember:** Always get **explicit permission** before testing any system. Stay ethical, stay legal! 🛡️  
 
-Would you like any modifications or additional features listed? 😊
+## **🛠️ Installation & Setup**  
+
+### **Prerequisites**  
+- Node.js (v16+)  
+- Telegram Bot Token (from [@BotFather](https://t.me/BotFather))  
+
+### **Steps**  
+```bash
+git clone https://github.com/parthhariom/camera-hack-bot-js.git
+cd camera-hack-bot-js
+npm install
+```  
+
+### **Configure the Bot**  
+1. Go to data.js 
+2. Add your Telegram bot token:  
+   ```env
+   TELEGRAM_BOT_TOKEN=YOUR_BOT_TOKEN_HERE
+   ```  
+3. Start the bot:  
+   ```bash
+   node index.js
+   ```  
+
+---  
+
+## **📜 License**  
+**MIT License** – Use responsibly and ethically!  
+
+🔗 **GitHub Repo**: [https://github.com/parthhariom/camera-hack-bot-js](https://github.com/parthhariom/camera-hack-bot-js)  
+
+---  
+
+**🔐 Ethical Reminder:** Always obtain **explicit permission** before testing any system. Stay legal, stay secure!  
+
+---  
+
+Would you like any modifications, such as adding **more technical details** or **screenshots**? 😊
